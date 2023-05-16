@@ -8,22 +8,26 @@
     text-decoration: none;
 }
 body {
+    
     max-width: 1200px;
     margin: 0 auto;
+    
 }
+
 header {
-    background-color: #000;
+    
+    background-color: #2664f4;
     padding: 10px;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 header h1{
-    color: red;
+    color: rgb(61, 5, 124);
     font-size: 2.5rem;
 }
 header span{
-    color: #fff;
+    color: #090909;
 }
 
 header .Page-primaria {
@@ -34,12 +38,12 @@ header .Page-primaria {
 
 header .Page-primaria li a {
     padding: 10px;
-    color: #fff;
+    color: #0a0909;
     font-size: 1.3rem;
 }
 
 .seção-div{
-    background-color: #000;
+    background-color: #fff;
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: space-around;
@@ -57,11 +61,11 @@ header .Page-primaria li a {
 .seção-div div h2{
     font-family: 'Poppins';
     font-weight: 600;
-    color:#f7f7f7;
+    color:#0c0c0c;
 }
 
 .seção-div div p {
-    color: #f7f7f7;
+    color: #0c0c0c;
     font-family: 'Poppins';
     font-weight: 200;
 
@@ -69,10 +73,10 @@ header .Page-primaria li a {
 
 .seção-div div a {
     justify-self: start;
-    color: #f7f7f7;
+    color: #040dfc;
     padding: 15px 40px;
     border-radius: 5px;
-    border: 2px solid #fff;
+    border: 2px solid #8504f5;
 }
 
 .seção-div img {
