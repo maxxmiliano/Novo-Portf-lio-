@@ -15,7 +15,7 @@ body {
 }
 .line {
     height: 3px;
-    background-color: #0a0a0a;
+    background-color: #530279;
     /*width: 93%;
     align-self: center;*/
  }
@@ -55,6 +55,7 @@ header .Page-primaria li a {
 }
 
 .seção-div{
+    animation: inicializar .7s forwards;
     background-color: #fff;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -85,7 +86,7 @@ header .Page-primaria li a {
 
 .seção-div div a {
     justify-self: start;
-    color: #fff;
+    color: #1a06f3;
     padding: 15px 40px;
     border-radius: 5px;
     border: 2px solid #1d05f5;
@@ -93,4 +94,15 @@ header .Page-primaria li a {
 
 .seção-div img {
     max-width: 80%;
+}
+
+@keyframes inicializar {
+    from {
+        opacity: 0;
+        transform: translate3d(0,-60px,0);
+    }
+    to {
+        opacity: 1;
+        transform: translate3d(0,0,0); 
+    }
 }
