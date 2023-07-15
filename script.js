@@ -4,7 +4,7 @@
     arrTexto.forEach( ( Letra , i)=>{
         setTimeout(()=>{
             elemento.innerHTML += Letra;
-        }, 75 * i);
+        }, 120 * i);
     });
  }
 

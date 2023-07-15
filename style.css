@@ -74,7 +74,7 @@ header .Page-primaria li a {
 .seção-div div h2{
     font-family: 'Poppins';
     font-weight: 600;
-    color:#050505;
+    color:#240c34;
 }
 
 .seção-div div p {
@@ -94,6 +94,24 @@ header .Page-primaria li a {
 
 .seção-div img {
     max-width: 80%;
+}
+
+.digitando::after {
+    content: '|';
+    margin-left: 5px;
+    opacity: 1;
+    animation: pisca  .5s infinite;
+}
+
+@keyframes pisca {
+    from {
+        opacity: 1;
+        
+    }
+    to {
+        opacity: 0;
+        
+    }
 }
 
 @keyframes inicializar {
