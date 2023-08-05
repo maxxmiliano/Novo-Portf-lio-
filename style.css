@@ -124,3 +124,14 @@ header .Page-primaria li a {
         transform: translate3d(0,0,0); 
     }
 }
+
+/*seçao sobre*/
+
+main{
+    background-color: #111;
+    color: #fff;
+}
+main .sobre {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
